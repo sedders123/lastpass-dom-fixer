@@ -1,0 +1,13 @@
+{
+    "name": "LastPass DOM Fixer",
+    "description": "Fixes the LastPass DOM issue",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "content_scripts": [
+        {
+            "matches": ["https://*/*", "http://*/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
